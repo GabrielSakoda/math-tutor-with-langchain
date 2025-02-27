@@ -26,7 +26,7 @@ The program checks if the question is related to mathematics through:
 If the question is not related to math, a warning will be returned that only questions related to mathematics are allowed and the question category will automatically be set to "others"
 
 ## Getting Started 
-First, install the necessary dependencies:
+First, after cloning the repository, install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
 ```
