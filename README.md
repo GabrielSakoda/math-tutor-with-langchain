@@ -29,7 +29,26 @@ The program checks if the question is related to mathematics through:
 - Presence of mathematical symbols (+, -, *, /, ^, =).
 # Usage examples
 
-1. Testing the tutor running test_json.py (In the file there will be a question made especially to test the tutor, you can change it directly in the file, modifying the "entry_json")
+1. Testing the tutor running "test_json.py" (In the file there will be a question made especially to test the tutor, you can change it directly in the file)
+   Example:
+   ```bash
+   entry_json = json.dumps({"question": "Solve the equation 2x+3=7"})
+   ```
+   Request example:
+   ```bash
+   {
+    "question": "Solve the equation: 2x+3=7?"
+   }
+   ```
+   Output example:
+   ```bash
+   {
+    "question": "Solve the equation: 2x+3=7?",
+    "category": "Mathematic",
+    "answer": "The result of the 2x+3=7 is...:"
+   }
+   ```
+   
 2. Just run "server.py" and you will access localhost, more specifically via this route:
 ```bash
 http://localhost:8000/math_tutor/playground/
