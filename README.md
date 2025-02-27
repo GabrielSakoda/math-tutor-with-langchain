@@ -37,13 +37,13 @@ The program checks if the question is related to mathematics through:
    Request example:
    ```bash
    {
-    "question": "Solve the equation: 2x+3=7?"
+    "question": "Solve the equation: 2x+3=7"
    }
    ```
    Output example:
    ```bash
    {
-    "question": "Solve the equation: 2x+3=7?",
+    "question": "Solve the equation: 2x+3=7",
     "category": "Mathematic",
     "answer": "The result of the 2x+3=7 is...:"
    }
