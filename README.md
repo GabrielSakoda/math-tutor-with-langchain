@@ -54,10 +54,10 @@ pip install -r requirements.txt
    ```
    
 2. Just run "server.py" and you will access localhost, more specifically via this route:
-```bash
-http://localhost:8000/math_tutor/playground/
-```
-On this page, you will be able to view an input to write the question and then receive a response from the tutor.
+  ```bash
+  http://localhost:8000/math_tutor/playground/
+  ```
+  On this page, you will be able to view an input to write the question and then receive a response from the tutor.
 
    
 
