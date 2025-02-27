@@ -30,6 +30,7 @@ First, after cloning the repository, install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+Name the file ".env.example" to ".env" and then get your API key from this link: "https://console.groq.com/keys" and replace the example key.
 
 # Usage examples
 
